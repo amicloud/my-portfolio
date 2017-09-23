@@ -1,2 +1,3 @@
-# my-portfolio
-My professional portfolio
+# Jorge Rodriguez's Portfolio
+
+This is my professional portfolio.  It uses AWS and ReactJS.
