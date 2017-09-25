@@ -1,0 +1,13 @@
+versiom: 0.1
+
+phases:
+  build:
+    Commands:
+      - echo nothing to do yet
+artificats:
+  files:
+    - index.html
+    - favicon.ico
+    - Recume_Jorge_rodriguez.pdf
+    - styles/main.css
+    - images/*
