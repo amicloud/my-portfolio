@@ -8,6 +8,6 @@ artifacts:
   files:
     - index.html
     - favicon.ico
-    - Recume_Jorge_Rodriguez.pdf
+    - Resume_Jorge_Rodriguez.pdf
     - styles/main.css
     - images/*
