@@ -1,0 +1,30 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrodriguezguru/my-portfolio.git"
+  },
+  "author": "Jorge Rodriguez <jrodriguez@jorgerodriguez.guru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrodriguezguru/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/jrodriguezguru/my-portfolio#readme"
+}
