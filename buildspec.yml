@@ -13,7 +13,7 @@ artifacts:
   files:
     - index.html
     - favicon.ico
-    - RobinNorwood-Resume.pdf
+    - Resume_Jorge_Rodriguez.pdf
     - styles/main.css
     - images/*
     - dist/bundle.js
