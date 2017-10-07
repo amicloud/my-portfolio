@@ -1,6 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import ExampleWorkModal from '../js/example-work-modal';
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+configure({ adapter: new Adapter() });
 
 const myExample = {
   'title': "Work Example",
@@ -22,7 +25,7 @@ describe("ExampleWorkModal component", () => {
   let anchors = component.find("a");
 
   it("Should contain a single 'a' element", () => {
-    expect(anchors.length).toEqual(1);
+    expect(anchors.prop('href')).toEqual(myExample.href);
   });
 
   it("Should link to our project", () => {
